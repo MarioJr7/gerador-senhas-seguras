@@ -29,6 +29,8 @@ O sistema permite personalização completa da senha por meio da definição de:
 
 ---
 
+# Objetivos do Projeto
+
 ## Objetivo Geral
 
 Desenvolver uma solução segura e profissional para geração automatizada de senhas fortes.
@@ -64,6 +66,7 @@ gerador-senhas-seguras/
 ├── requirements.txt
 ├── README.md
 └── setup.py
+```
 
 ---
 
@@ -85,6 +88,20 @@ Responsável pela lógica de geração segura de senhas utilizando:
 
 ---
 
+## Interface CLI (`cli.py`)
+
+Desenvolvida com Click, permite execução parametrizada:
+
+### Exemplo:
+
+```bash
+python -m src.password_generator.cli --length 16 --uppercase --lowercase --numbers --special
+```
+
+---
+
+# Requisitos do Sistema
+
 ## Software necessário:
 
 * Python 3.11+
@@ -98,7 +115,7 @@ Responsável pela lógica de geração segura de senhas utilizando:
 ## 1. Clonar repositório
 
 ```bash
-git clone https://github.com/seuusuario/gerador-senhas-seguras.git
+git clone https://github.com/MarioJr7/gerador-senhas-seguras.git
 cd gerador-senhas-seguras
 ```
 
@@ -166,6 +183,14 @@ python -m src.password_generator.cli --length 8 --no-uppercase --no-lowercase --
 
 ---
 
+# Exemplo de Saída Esperada
+
+```bash
+Senha gerada: 9@Kx!Lm2#PqRs7$Ab
+```
+
+---
+
 # Testes Automatizados
 
 ## Execução:
@@ -180,6 +205,14 @@ pytest
 * Presença de letras maiúsculas
 * Presença de números
 * Validação de critérios inválidos
+
+---
+
+# Exemplo de Resultado:
+
+```bash
+4 passed in 0.15s
+```
 
 ---
 
@@ -205,6 +238,25 @@ pytest
 * API REST
 * Indicador de força de senha
 * Integração com IA para análise de segurança
+
+---
+
+# Contribuição Acadêmica
+
+Este projeto demonstra competências em:
+
+* Desenvolvimento seguro
+* Arquitetura de software
+* Engenharia de testes
+* Automação
+* Documentação técnica
+* Gestão de versões
+
+---
+
+# Licença
+
+Projeto acadêmico desenvolvido para fins educacionais e de pesquisa.
 
 ---
 
